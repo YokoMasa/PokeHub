@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_menu_array">
+        <item>@string/profile</item>
+        <item>@string/feed_timeline</item>
+        <item>@string/recent_trending</item>
+        <item>@string/logout</item>
+    </string-array>
+</resources>

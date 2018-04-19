@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hash_tag">#</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="login_description">Please log in to GitHub in order to use this application.</string>
+    <string name="login_waiting">Processing...</string>
+    <string name="login_succeeded">Log in succeeded</string>
+    <string name="search">Search repository</string>
+    <string name="search_hint">Search repository</string>
+    <string name="profile">Profile</string>
+    <string name="owner">Owner</string>
+    <string name="follow_action">Add / Remove</string>
+    <string name="followed_user">Followed this user.</string>
+    <string name="failed_to_follow_user">Failed to follow this user.</string>
+    <string name="unfollowed_user">Unfollowed this user.</string>
+    <string name="failed_to_unfollow_user">Failed to unfollowed this user.</string>
+
+    <string name="feed_timeline">Global</string>
+    <string name="feed_current_user_public">Public</string>
+    <string name="feed_current_user">Private</string>
+    <string name="feed_current_user_action">Action</string>
+    <string name="feed_current_user_organization">Organization</string>
+    <string name="feed_nothing_to_show">Nothing to show</string>
+    <string name="feed_nav_menu_logout">Log out</string>
+
+    <string name="failure_internet">Couldn\'t access the server</string>
+    <string name="failure_invalid_token">invalid token</string>
+    <string name="failure_unexpected">Unexpected error occurred</string>
+    <string name="failure_server">GitHub server error</string>
+    <string name="failure_creating_token">failed to create token</string>
+    <string name="failure_not_found">404 not found</string>
+    <string name="failure_map">Error occurred</string>
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string name="seconds_ago">second(s) ago</string>
+    <string name="minutes_ago">minute(s) ago</string>
+    <string name="hours_ago">hour(s) ago</string>
+    <string name="days_ago">day(s) ago</string>
+
+    <string name="tab_overview">Overview</string>
+    <string name="tab_issues">Issues</string>
+    <string name="tab_comments">Comments</string>
+    <string name="tab_commits">Commits</string>
+    <string name="tab_code">Source code</string>
+    <string name="tab_pull_requests">Pull requests</string>
+    <string name="tab_file_changed">File changed</string>
+    <string name="tab_action">Action</string>
+    <string name="tab_received_action">News</string>
+    <string name="tab_repository">Repository</string>
+    <string name="tab_starred">Stars</string>
+    <string name="tab_following">Following</string>
+    <string name="tab_followers">Followers</string>
+    <string name="tab_members">Members</string>
+
+    <string name="repo_readme">README</string>
+    <string name="repo_no_readme">No README here</string>
+    <string name="repo_loading_readme">loading README...</string>
+
+    <string name="repo_starred">Starred</string>
+    <string name="repo_star_failed">Failed to star</string>
+    <string name="repo_unstarred">Unstarred</string>
+    <string name="repo_unstar_failed">Failed to unstar</string>
+
+    <string name="repo_subscribed">Now watching</string>
+    <string name="repo_subscribe_failed">Failed to start watching</string>
+    <string name="repo_unsubscribed">Stopped watching</string>
+    <string name="repo_unsubscribe_failed">Failed to stop watching</string>
+
+    <string name="issue_title">Issue</string>
+    <string name="issue_state_open">Open</string>
+    <string name="issue_state_closed">Closed</string>
+
+    <string name="commit_action_bar_title">Commit #</string>
+    <string name="commit_committer">Committer</string>
+    <string name="commit_author">Author</string>
+
+    <string name="menu_open_in_browser">Open in browser</string>
+    <string name="menu_open_repo">Open repository</string>
+
+    <string name="error">Error occurred</string>
+    <string name="error_server_message">message from GitHub:</string>
+    <string name="error_try_again">Try again</string>
+
+    <string name="recent_trending">Newcomers</string>
+
+    <string name="profile_name">Name</string>
+    <string name="profile_org">Organization</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_url">Url</string>
+    <string name="profile_bio">Bio</string>
+</resources>

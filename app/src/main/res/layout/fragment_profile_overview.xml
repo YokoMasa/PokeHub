@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/divider"
+        android:showDividers="middle">
+
+        <LinearLayout
+            style="@style/OverviewLinearLayout">
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/OverviewTitle"
+                android:text="@string/profile_name"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/profile_name"
+                style="@style/OverviewContent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/OverviewLinearLayout">
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/OverviewTitle"
+                android:text="@string/profile_org"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/profile_org"
+                style="@style/OverviewContent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/OverviewLinearLayout">
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/OverviewTitle"
+                android:text="@string/profile_email"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/profile_email"
+                style="@style/OverviewContent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/OverviewLinearLayout">
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/OverviewTitle"
+                android:text="@string/profile_url"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/profile_url"
+                style="@style/OverviewContent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/OverviewLinearLayout">
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/OverviewTitle"
+                android:text="@string/profile_bio"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/profile_bio"
+                style="@style/OverviewContent"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

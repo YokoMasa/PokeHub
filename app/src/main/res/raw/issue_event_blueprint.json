@@ -1,0 +1,50 @@
+{
+  "closed": {
+    "icon": "{actor.avatar_url}",
+    "comment": {
+      "default": "<b>{actor.login}</b> closed the issue"
+    }
+  },
+  "reopened": {
+    "icon": "{actor.avatar_url}",
+    "comment": {
+      "default": "<b>{actor.login}</b> reopened the issue"
+    }
+  },
+  "merged": {
+    "icon": "{actor.avatar_url}",
+    "comment": {
+      "default": "<b>{actor.login}</b> merged the issue"
+    }
+  },
+  "referenced": {
+    "icon": "{actor.avatar_url}",
+    "comment": {
+      "default": "commit <b>{commit_id}</b> referenced the issue"
+    }
+  },
+  "assigned": {
+    "icon": "{actor.avatar_url}",
+    "comment": {
+      "default": "<b>{actor.login}</b> was assigned to the issue"
+    }
+  },
+  "unassigned": {
+    "icon": "{actor.avatar_url}",
+    "comment": {
+      "default": "<b>{actor.login}</b> was unassigned from the issue"
+    }
+  },
+  "labeled": {
+    "icon": "{actor.avatar_url}",
+    "comment": {
+      "default": "<b>{actor.login}</b> added a label <color{label.color}>{label.name}</color{label.color}>"
+    }
+  },
+  "unlabeled": {
+    "icon": "{actor.avatar_url}",
+    "comment": {
+      "default": "<b>{actor.login}</b> removed a label <color{label.color}>{label.name}</color{label.color}>"
+    }
+  }
+}
